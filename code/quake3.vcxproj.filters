@@ -2,15 +2,15 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{67432927-473d-44f6-914d-6037b62d45f7}</UniqueIdentifier>
+      <UniqueIdentifier>{00dee450-5ece-48b9-9cfc-75b8e9a4ea74}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{e7a66640-0602-43ad-9ce6-74ddae18fe69}</UniqueIdentifier>
+      <UniqueIdentifier>{7f9b679c-5b57-46b5-9478-3073b24fbc62}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{e93c20ab-02f3-4558-ac8b-ab408a6ef6f7}</UniqueIdentifier>
+      <UniqueIdentifier>{f2ce8643-43f9-4547-8770-54232dd9e086}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
   </ItemGroup>
@@ -256,7 +256,6 @@
     <None Include="unix\ChangeLog" />
     <None Include="unix\Conscript-pk3" />
     <None Include="Construct" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="win32\qe3.ico">
