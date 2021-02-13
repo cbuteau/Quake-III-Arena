@@ -2,15 +2,15 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{a22702b2-c57e-4c9a-b1ed-f7fe7bd71332}</UniqueIdentifier>
+      <UniqueIdentifier>{06aa45cb-35cd-4589-9b17-fad2fc677265}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{d0119510-79ab-4ce4-beaa-e4060ade8aba}</UniqueIdentifier>
+      <UniqueIdentifier>{25247432-52d8-4b3d-8bf3-5935ad3da84a}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{56bd8166-7828-479b-b3ae-a9dd427c4358}</UniqueIdentifier>
+      <UniqueIdentifier>{3e052e2c-99e0-4f42-862b-4b65492d21fc}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
   </ItemGroup>
@@ -205,8 +205,5 @@
     <CustomBuild Include="game.def">
       <Filter>Source Files</Filter>
     </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
 </Project>

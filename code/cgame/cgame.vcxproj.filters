@@ -2,11 +2,11 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{d2277540-a8bf-441e-a30c-cd462a7a01ab}</UniqueIdentifier>
+      <UniqueIdentifier>{bf19c7e6-2fb0-446b-95ea-ab8cc6e754cd}</UniqueIdentifier>
       <Extensions>c</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{e9687993-3c56-43f3-8acf-040c18d227cb}</UniqueIdentifier>
+      <UniqueIdentifier>{05970f14-7d30-4419-820e-623d9c0128fc}</UniqueIdentifier>
       <Extensions>h</Extensions>
     </Filter>
   </ItemGroup>
@@ -112,8 +112,5 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="cgame.def" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
 </Project>

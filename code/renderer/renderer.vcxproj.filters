@@ -2,28 +2,28 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{e427d440-9cb2-480f-bf71-396354c5732b}</UniqueIdentifier>
+      <UniqueIdentifier>{49b827fc-2a3e-400c-9ee5-2012ecb2edf1}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{8cad0246-213e-4edf-9465-4214189bed31}</UniqueIdentifier>
+      <UniqueIdentifier>{5a37da02-be95-49fb-8bfa-579caa1ec521}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
     <Filter Include="jpeg">
-      <UniqueIdentifier>{636f4f36-590f-4b1c-9c72-00eb85159461}</UniqueIdentifier>
+      <UniqueIdentifier>{6728c21d-eab1-4431-8a08-c551f4d62249}</UniqueIdentifier>
     </Filter>
     <Filter Include="jpeg\Source Files No. 1">
-      <UniqueIdentifier>{b74e2bab-630d-41d1-a0a2-ddb150190507}</UniqueIdentifier>
+      <UniqueIdentifier>{cb7ce01a-14fa-4187-a6d6-087437ce59b2}</UniqueIdentifier>
     </Filter>
     <Filter Include="jpeg\Header Files No. 1">
-      <UniqueIdentifier>{94e9a2db-99b3-4b13-8180-08ea302bc9e1}</UniqueIdentifier>
+      <UniqueIdentifier>{46c0ef14-eab6-45bf-b7bb-e67e69f569d4}</UniqueIdentifier>
     </Filter>
     <Filter Include="FreeType2">
-      <UniqueIdentifier>{e8b272ef-1716-4da4-871b-3133047f80d8}</UniqueIdentifier>
+      <UniqueIdentifier>{70e1bc3b-4935-4de4-ae30-ad287f4c18d3}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="FreeType2\Include files">
-      <UniqueIdentifier>{81d6721c-b7e1-4237-afb4-1bbd7a48df23}</UniqueIdentifier>
+      <UniqueIdentifier>{45604384-fff0-4834-a2a2-b1f61259861a}</UniqueIdentifier>
       <Extensions>*.h</Extensions>
     </Filter>
   </ItemGroup>
@@ -31,7 +31,6 @@
     <None Include="ref_trin.def">
       <Filter>Source Files</Filter>
     </None>
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="tr_animation.c">

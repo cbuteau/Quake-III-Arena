@@ -1,7 +1,15 @@
 /gamedata
 
-/code/.vs/
+/code/.vs
 
+/code/libs
+/libs
+
+/q3radiant/.vs
+/q3radiant/Debug/
+/q3radiant/splines/Debug/
+
+/q3map/Debug/
 
 /code/q3_ui/Debug/
 /code/q3_ui/Debug_TA/

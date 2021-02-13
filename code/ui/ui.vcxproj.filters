@@ -2,15 +2,15 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{d53e7449-1ea4-48bd-b322-4927743004da}</UniqueIdentifier>
+      <UniqueIdentifier>{ff363771-8745-417f-b47c-3fa586ab36c7}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{f5575b94-df63-4c80-9f3c-dd4d361e422a}</UniqueIdentifier>
+      <UniqueIdentifier>{3ece4ee5-db69-4428-b5a9-8c2677b133de}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{b6cf5cda-d7ef-4e98-a73f-facd764f6a79}</UniqueIdentifier>
+      <UniqueIdentifier>{83687398-d215-4246-881c-f1e033bb80c6}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
   </ItemGroup>
@@ -80,8 +80,5 @@
     <CustomBuild Include="ui_shared.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
 </Project>

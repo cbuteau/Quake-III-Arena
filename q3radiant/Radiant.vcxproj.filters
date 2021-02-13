@@ -2,30 +2,30 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{5e10823b-2b86-49b6-855e-e1ad6e9c3a2e}</UniqueIdentifier>
+      <UniqueIdentifier>{aff2c029-8d1d-448c-979a-d4ba61d2f6e6}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Source Files\QE4 Files">
-      <UniqueIdentifier>{c0fa0627-637a-4270-9a81-04ce85b3ef78}</UniqueIdentifier>
+      <UniqueIdentifier>{d7ed2b5b-7d16-4337-b9f0-4268a4956dcd}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Brush Primitives">
-      <UniqueIdentifier>{5dc5bcfb-ce59-40f1-ae06-edfde69d033d}</UniqueIdentifier>
+      <UniqueIdentifier>{6c1c22b4-d78f-487f-9545-1a2ae17b4908}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\interfaces">
-      <UniqueIdentifier>{04e019fd-2304-42f5-8165-966eaf5af430}</UniqueIdentifier>
+      <UniqueIdentifier>{b459e2ac-58f4-462d-b854-d7f67cd43267}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{2af3b031-8c5e-477d-a131-f03e58fc8852}</UniqueIdentifier>
+      <UniqueIdentifier>{3b3d26a4-ce8b-47f0-b6fe-f25386f4ce48}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
     <Filter Include="Header Files\interface headers">
-      <UniqueIdentifier>{93bbc506-c0a0-403f-8fe3-02f2946abc41}</UniqueIdentifier>
+      <UniqueIdentifier>{1cbf5513-21eb-4d1f-9fed-7a9776745410}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\internal interface headers">
-      <UniqueIdentifier>{988a3d41-0a94-4213-8fbb-094542fdb5c6}</UniqueIdentifier>
+      <UniqueIdentifier>{bcba156a-7386-4f36-8809-051e472e6d39}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{c7805233-d6ee-459a-8beb-a58efe510974}</UniqueIdentifier>
+      <UniqueIdentifier>{98506c57-36b5-4b2a-bf5c-f003b2379f24}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
   </ItemGroup>
