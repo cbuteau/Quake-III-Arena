@@ -1,0 +1,2 @@
+D:\repos\Quake-III-Arena\code\botlib\Debug\botlib.lib
+D:\repos\Quake-III-Arena\code\botlib\Debug\botlib.pdb

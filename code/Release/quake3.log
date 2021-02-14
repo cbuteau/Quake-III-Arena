@@ -1,6 +1,4 @@
-﻿E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(36,5): warning MSB4211: The property "IntermediateOutputPath" is being set to a value for the first time, but it was already consumed at "E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (35,5)".
-E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(337,5): warning MSB4211: The property "CleanFile" is being set to a value for the first time, but it was already consumed at "E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (35,5)".
-  cl_cgame.c
+﻿  cl_cgame.c
 D:\repos\Quake-III-Arena\code\client\cl_cgame.c(314,9): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 D:\repos\Quake-III-Arena\code\client\cl_cgame.c(323,9): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 D:\repos\Quake-III-Arena\code\client\cl_cgame.c(324,9): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -210,4 +208,4 @@ D:\repos\Quake-III-Arena\code\win32\win_syscon.c(279,4): warning C4996: 'strncat
 D:\repos\Quake-III-Arena\code\win32\win_syscon.c(487,8): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   win_wndproc.c
   Generating Code...
-  quake3.vcxproj -> D:\repos\Quake-III-Arena\code\.\Release\quake3.exe
+D:\repos\Quake-III-Arena\code\win32\win_main.c : fatal error C1090: PDB API call failed, error code '5': D:\repos\Quake-III-Arena\code\Release\vc142.pdb
