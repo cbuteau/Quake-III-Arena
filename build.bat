@@ -1,0 +1,1 @@
+msbuild .\code\quake3.sln /t:Clean,Build /p:Configuration=Release /p:Platform=x86
