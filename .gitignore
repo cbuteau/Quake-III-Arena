@@ -14,6 +14,8 @@
 /code/q3_ui/Debug/
 /code/q3_ui/Debug_TA/
 
+*.obj
+
 code/.vs/quake3/v16/Browse.VC.db-shm
 code/.vs/quake3/v16/Browse.VC.db-wal
 code/.vs/quake3/v16/Browse.VC.opendb
