@@ -1,0 +1,10 @@
+
+
+cflags = -Wall
+
+rule cc
+  command = cl $cflags -c $in -o $out
+
+build cmdlib.o: cc q3asm\cmdlib.c
+build q3asm.o: cc q3asm\q3asm.c
+# build q3asm.o: cc q3asm\q3asm.c
