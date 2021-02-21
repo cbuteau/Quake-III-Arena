@@ -138,6 +138,9 @@ project "client"
   files { "code\\client\\**.h", "code\\client\\**.cpp", "code\\client\\**.c" }
   location ("build/projects")
 
+  nuget{"package:version"}
+  nuget{"v8-v140-x64:7.4.288.11"}
+
   filter { "configurations:debug" }
       defines { "DEBUG", "_DEBUG", "WIN32"  }
       symbols "On"
