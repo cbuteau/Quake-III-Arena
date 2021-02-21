@@ -15,3 +15,31 @@ project "q3asm"
     filter { "configurations:release" }
         defines { "NDEBUG" }
         optimize "On"
+
+project "lcc"
+  kind "ConsoleApp"
+  language "C++"
+  files { "lcc\\**.h", "lcc\\**.cpp" }
+
+
+  filter { "configurations:debug" }
+      defines { "DEBUG" }
+      symbols "On"
+
+  filter { "configurations:release" }
+      defines { "NDEBUG" }
+      optimize "On"
+
+project "botlib"
+  kind "StaticLib"
+  language "C++"
+  files { "botlib\\**.h", "botlib\\**.cpp" }
+
+
+  filter { "configurations:debug" }
+      defines { "DEBUG" }
+      symbols "On"
+
+  filter { "configurations:release" }
+      defines { "NDEBUG" }
+      optimize "On"
