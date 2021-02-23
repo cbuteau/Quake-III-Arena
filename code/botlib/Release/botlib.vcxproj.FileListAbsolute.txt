@@ -1,1 +1,0 @@
-D:\repos\Quake-III-Arena\code\botlib\Release\botlib.lib

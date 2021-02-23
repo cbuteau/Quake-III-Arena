@@ -1,2 +1,0 @@
-D:\repos\Quake-III-Arena\code\renderer\Debug\renderer.lib
-D:\repos\Quake-III-Arena\code\renderer\Debug\renderer.pdb

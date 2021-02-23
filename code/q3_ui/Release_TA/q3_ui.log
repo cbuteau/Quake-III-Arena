@@ -1,5 +1,0 @@
-﻿  ui_syscalls.c
-E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1316,5): warning MSB8012: TargetPath(D:\repos\Quake-III-Arena\code\q3_ui\.\Release_TA\q3_ui.dll) does not match the Linker's OutputFile property value (D:\repos\Quake-III-Arena\code\Release_TA\uix86_old.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1318,5): warning MSB8012: TargetName(q3_ui) does not match the Linker's OutputFile property value (uix86_old). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-ui.def : error LNK2001: unresolved external symbol vmMain
-Release_TA/q3_ui.lib : fatal error LNK1120: 1 unresolved externals
