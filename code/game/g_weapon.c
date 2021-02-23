@@ -24,6 +24,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 // perform the server side effects of a weapon firing
 
 #include "g_local.h"
+#include "../v8/v8_init.h"
 
 static	float	s_quadFactor;
 static	vec3_t	forward, right, up;
@@ -169,6 +170,8 @@ void Bullet_Fire (gentity_t *ent, float spread, int damage ) {
 	int			i, passent;
 
 	damage *= s_quadFactor;
+
+	v8_testplus	(Com_Printf);
 
 	r = random() * M_PI * 2.0f;
 	u = sin(r) * crandom() * spread * 16;

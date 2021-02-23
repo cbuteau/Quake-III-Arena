@@ -22,6 +22,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
 #include "g_local.h"
+#include "../v8/v8_init.h"
 
 level_locals_t	level;
 
@@ -506,6 +507,8 @@ void G_InitGame( int levelTime, int randomSeed, int restart ) {
 
 	G_RemapTeamShaders();
 
+	v8_init();
+	v8_register("dump", Com_Printf);
 }
 
 
@@ -517,6 +520,7 @@ G_ShutdownGame
 */
 void G_ShutdownGame( int restart ) {
 	G_Printf ("==== ShutdownGame ====\n");
+	v8_destroy();
 
 	if ( level.logFile ) {
 		G_LogPrintf("ShutdownGame:\n" );

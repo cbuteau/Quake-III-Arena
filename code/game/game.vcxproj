@@ -96,6 +96,7 @@
     <OutDir>.\Debug\</OutDir>
     <IntDir>.\Debug\</IntDir>
     <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(V8CODE_ROOT)\v8\out.gn\ia32.debug\obj;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Alpha|Win32'">
     <OutDir>.\..\ReleaseAXP\</OutDir>
@@ -949,6 +950,11 @@
     <ClInclude Include="q_shared.h" />
     <ClInclude Include="surfaceflags.h" />
     <ClInclude Include="syn.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\v8\v8.vcxproj">
+      <Project>{9875e10e-9534-4ae6-acd2-d52f8b363490}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
