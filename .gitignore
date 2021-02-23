@@ -1,5 +1,6 @@
 /gamedata
 
+/.vs
 /code/.vs
 
 /code/libs
@@ -14,7 +15,13 @@
 /code/q3_ui/Debug/
 /code/q3_ui/Debug_TA/
 
+**/Debug/**
+**/Debug_TA/**
+**/Release/**
+**/Release_TA/**
+
 *.obj
+*.tlog
 
 code/.vs/quake3/v16/Browse.VC.db-shm
 code/.vs/quake3/v16/Browse.VC.db-wal
@@ -24,10 +31,16 @@ code/.vs/quake3/v16/Solution.VC.db-wal
 code/.vs/quake3/v16/ipch/
 code/Debug/
 code/Debug_TA/
+code/baseq3
 code/botlib/Debug_TA/
 code/cgame/Debug_TA/
+code/cgame/Debug/
 code/game/Debug_TA/
+code/game/Debug/
 code/renderer/Debug_TA/
 code/splines/Debug/
 code/ui/Debug_TA/
+code/ui/Debug/
+code/q3_ui/q3_ui___Win32_Debug/
+
 code/win32/winquake.res
