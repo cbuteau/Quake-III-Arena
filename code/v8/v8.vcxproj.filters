@@ -18,6 +18,9 @@
     <ClInclude Include="v8_init.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="v8_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="v8_init.cpp">

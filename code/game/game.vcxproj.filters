@@ -117,6 +117,12 @@
     <ClCompile Include="q_shared.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="g_main_v8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_local_v8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ai_chat.h">
@@ -198,6 +204,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="syn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="g_main_v8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="g_local_v8.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -97,6 +97,7 @@
     <IntDir>.\Debug\</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <LibraryPath>$(V8CODE_ROOT)\v8\out.gn\ia32.debug\obj;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+    <IncludePath>$(V8CODE_ROOT)\v8\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Alpha|Win32'">
     <OutDir>.\..\ReleaseAXP\</OutDir>
@@ -163,7 +164,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CRT_SECURE_NO_WARNINGS;_WINDOWS;BUILDING_REF_GL;DEBUG;GLOBALRANK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_ITERATOR_DEBUG_LEVEL=0;_CRT_SECURE_NO_WARNINGS;_WINDOWS;BUILDING_REF_GL;DEBUG;GLOBALRANK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeader />
       <PrecompiledHeaderOutputFile>.\Debug/game.pch</PrecompiledHeaderOutputFile>
@@ -915,6 +916,8 @@
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32;NDEBUG;_WINDOWS;GLOBALRANK</PreprocessorDefinitions>
     </ClCompile>
+    <ClCompile Include="g_main_v8.cpp" />
+    <ClCompile Include="g_local_v8.cpp" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="game.def">
@@ -945,6 +948,8 @@
     <ClInclude Include="g_local.h" />
     <ClInclude Include="g_public.h" />
     <ClInclude Include="g_team.h" />
+    <ClInclude Include="g_main_v8.h" />
+    <ClInclude Include="g_local_v8.h" />
     <ClInclude Include="inv.h" />
     <ClInclude Include="match.h" />
     <ClInclude Include="q_shared.h" />

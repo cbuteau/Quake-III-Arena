@@ -23,7 +23,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 // g_weapon.c 
 // perform the server side effects of a weapon firing
 
-#include "g_local.h"
+#include "g_local_v8.h"
 #include "../v8/v8_init.h"
 
 static	float	s_quadFactor;
@@ -171,7 +171,9 @@ void Bullet_Fire (gentity_t *ent, float spread, int damage ) {
 
 	damage *= s_quadFactor;
 
-	v8_testplus	(Com_Printf);
+	char* script = v8_load_script_from_file("weapon_Bullet_Fire_qpew.js");
+	if (script != NULL)
+		v8_test_script_function_with_ent(script, "qpew", ent);
 
 	r = random() * M_PI * 2.0f;
 	u = sin(r) * crandom() * spread * 16;
