@@ -19,6 +19,8 @@
 **/Debug_TA/**
 **/Release/**
 **/Release_TA/**
+**/ui___Win32_vector/**
+**/ui___Win32_vector0/**
 
 *.obj
 *.tlog
