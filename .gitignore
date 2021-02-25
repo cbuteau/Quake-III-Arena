@@ -2,6 +2,7 @@
 
 /.vs
 /code/.vs
+/code/baseq3
 
 /code/libs
 /libs
@@ -19,30 +20,11 @@
 **/Debug_TA/**
 **/Release/**
 **/Release_TA/**
-**/ui___Win32_vector/**
-**/ui___Win32_vector0/**
+**/*Win32_Debug/**
+**/*Win32_vector/**
+**/*Win32_vector0/**
 
 *.obj
 *.tlog
-
-code/.vs/quake3/v16/Browse.VC.db-shm
-code/.vs/quake3/v16/Browse.VC.db-wal
-code/.vs/quake3/v16/Browse.VC.opendb
-code/.vs/quake3/v16/Solution.VC.db-shm
-code/.vs/quake3/v16/Solution.VC.db-wal
-code/.vs/quake3/v16/ipch/
-code/Debug/
-code/Debug_TA/
-code/baseq3
-code/botlib/Debug_TA/
-code/cgame/Debug_TA/
-code/cgame/Debug/
-code/game/Debug_TA/
-code/game/Debug/
-code/renderer/Debug_TA/
-code/splines/Debug/
-code/ui/Debug_TA/
-code/ui/Debug/
-code/q3_ui/q3_ui___Win32_Debug/
 
 code/win32/winquake.res

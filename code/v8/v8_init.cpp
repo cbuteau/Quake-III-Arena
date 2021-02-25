@@ -10,7 +10,7 @@
 #include "v8_init.h"
 #include "v8_functions.h"
 
-// v8\v8\out.gn\x64.debug\obj
+// v8
 #pragma comment(lib, "v8_monolith")
 
 // win
@@ -162,14 +162,12 @@ v8::Local<v8::Context> getActiveContext() {
 static V8ScriptScope* v8_script;
 
 void v8_init() {
-    char			cwd[256];
-    static char		argv0[256];
+    char		cwd[256];
     char* c = _getcwd(cwd, sizeof(cwd));
-    sprintf(argv0, "%s\\quake3.exe", cwd);
 
     // Initialize V8.
-    V8::InitializeICUDefaultLocation(argv0);
-    V8::InitializeExternalStartupData(argv0);
+    V8::InitializeICUDefaultLocation(c);
+    V8::InitializeExternalStartupData(c);
 
     v8_platform = platform::NewDefaultPlatform();
     V8::InitializePlatform(v8_platform.get());
