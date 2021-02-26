@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<project name="hello" default="compile">
+    <taskdef resource="cpptasks.tasks"/>
+    <target name="compile">
+        <cc outfile="main" objdir="obj" outtype="executable">
+            <fileset dir="./q3asm" includes="*.cpp"/>
+            <compiler id="Linuxgcc" name="g++">
+                <compilerarg value="-fPIC"/>
+            </compiler>
+            <linker id="LinuxLinker" name="g++" libtool="true">
+                <linkerarg value="-g" if="debug"/>
+                <linkerarg value="-fPIC"/>
+                <libset libs="stdc++"/>
+            </linker>
+        </cc>
+    </target>
+</project>

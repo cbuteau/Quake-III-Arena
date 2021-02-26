@@ -1,14 +1,15 @@
 
 # Goals
 
-+ [ ] Convert To latest Visual Studio
++ [x] Convert To latest Visual Studio
 + [ ] Get Compiling and working.
-+ [ ] Maybe migrate to ninja build system.
++ [ ] Migrate to build system (premake).
++ [ ] Get build happening on circleci.
 + [ ] Document how code works.
 + [ ] Integrate v8 engine.
 + [ ] first experiment with porting bots to JS modules.
 + [ ] Make mod system for javascript mods.
-+ [ ] Get to compile on other platforms.
++ [ ] (Maybe) Get to compile on other platforms.
 
 # Links
 
